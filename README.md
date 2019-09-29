@@ -1,6 +1,6 @@
 # autoptesting setup guide
 
-##prerequisite
+## prerequisite
 Go (> 1.11)
 redis single server (no need to be cluster)
 
@@ -19,11 +19,11 @@ go run main.go
 
 service will listening on localhost:8080
 
-#config
+# config
 github.com/wy3148/autoptesting/src/conf/app.conf
 
 
-#api testing
+# api testing
 contact/id GET
 ```
 http://localhost:8080/contact/person_BF8A2F05-0E71-496F-A76E-AE99086CC6BC
@@ -40,7 +40,7 @@ contact POST
 }
 ```
 
-#testing
+# testing
 ```
 store_test.go unit test
 tests/default_test.go (local endpoint testing)
