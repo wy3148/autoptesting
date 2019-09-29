@@ -22,7 +22,7 @@ go run main.go
 service will listening on localhost:8080
 
 # config
-github.com/wy3148/autoptesting/src/conf/app.conf
+github.com/wy3148/autoptesting/conf/app.conf
 
 
 # api testing
