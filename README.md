@@ -1,5 +1,7 @@
 # autoptesting setup guide
 
+This is done by using a simple web framework-beego, also some other redis opensource package is used.
+
 ## prerequisite
 Go (> 1.11)
 redis single server (no need to be cluster)
